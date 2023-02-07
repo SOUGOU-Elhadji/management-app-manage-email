@@ -1,0 +1,23 @@
+{
+  "changelogDate": "20230123170827",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name_departement",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Departement",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "post",
+      "otherEntityRelationshipName": "departement",
+      "relationshipName": "post",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}
